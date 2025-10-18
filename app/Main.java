@@ -31,6 +31,7 @@ public class Main {
                     System.out.println("Exiting... Goodbye!");
                     running = false;
                 }
+                case "7" -> System.out.println("Thank you");
                 default -> System.out.println("Invalid option. Try again.");
             }
         }
